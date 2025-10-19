@@ -553,6 +553,19 @@ footer p {
 
 
 
+footer,  .bottom-footer {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.copyright p {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0; /* minimal safe padding */
+}
+
+
+
 .people-card img {
     width: 80px;
     height: 80px;
