@@ -27,12 +27,12 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 
 h4 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -378,7 +378,7 @@ p {
     align-self: center;
 }
 
-.card-build h3 {
+.card-build h4 {
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -571,6 +571,10 @@ footer p {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
 }
 
+.people-card h4{
+    font-weight: bold;
+}
+
 
 
 .people-card:hover {
@@ -682,22 +686,9 @@ footer p {
     }
 
 
-    #featured > div.card-cont > div > div:nth-child(1) > h3,
-    #featured > div.card-cont > div > div:nth-child(2) > h3,
-    #featured > div.card-cont > div > div:nth-child(3) > h3{
-        font-size: 20px;
-    }
 
 
-    #People > div.card-cont > div > div.people-card.active > h3,
-    #People > div.card-cont > div > div:nth-child(2) > h3,
-    #People > div.card-cont > div > div:nth-child(3) > h3{
-     font-size: 1.5rem;
-    }
-
-
-
-    .card-build h3 {
+    .card-build h4 {
         font-size: 20px;
     }
 
