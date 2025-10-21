@@ -329,9 +329,7 @@ p {
 #team h3,
 #feature h3,
 #People h3 {
-   
     font-size: 2rem;
- 
 }
 
 
@@ -553,7 +551,7 @@ footer p {
 
 
 
-footer,  .bottom-footer {
+footer, .bottom-footer {
     margin: 0 !important;
     padding: 0 !important;
 }
@@ -561,7 +559,8 @@ footer,  .bottom-footer {
 .copyright p {
     margin: 0;
     text-align: center;
-    padding: 10px 0; /* minimal safe padding */
+    padding: 10px 0;
+    /* minimal safe padding */
 }
 
 
@@ -584,7 +583,7 @@ footer,  .bottom-footer {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
 }
 
-.people-card h4{
+.people-card h4 {
     font-weight: bold;
 }
 
@@ -653,17 +652,14 @@ footer,  .bottom-footer {
     }
 
 
-    #featured>div.container.text-center.mt-5.pt-5>h3,
-    #project>div.container.text-center.my-5>h3,
-    #team>div.container.text-center.my-5>h3,
-    #feature>div.container.text-center.my-5>h3 {
-        font-size: 2rem;
+    #featured h3,
+    #project h3,
+    #team h3,
+    #feature h3,
+    #People h3 {
+        font-size: 1.7rem;
     }
 
-
-    #featured>div.card-cont>div>div:nth-child(2)>h3 {
-        font-size: 1.5rem;
-    }
 
     #team .team-card {
         display: grid;
@@ -678,26 +674,17 @@ footer,  .bottom-footer {
     }
 
 
-   
 
-    #featured>div.container.text-center.mt-5.pt-5>p,
-    #team>div.container.text-center.my-5>p,
-    #project>div.container.text-center.my-5>p,
-    #feature>div.container.text-center.my-5>p {
-        font-size: .7rem;
+
+    #featured p,
+    #project p,
+    #team p,
+    #feature p,
+    #People p {
+        color: #5f5d5a;
+        font-size: .8rem;
         word-spacing: 3px;
     }
-
-
-    #feature > div.card-bdy.my-5 > div:nth-child(1) > h3,
-    #feature > div.card-bdy.my-5 > div:nth-child(2) > h3,
-    #feature > div.card-bdy.my-5 > div:nth-child(3) > h3,
-    #feature > div.card-bdy.my-5 > div:nth-child(4) > h3,
-    #feature > div.card-bdy.my-5 > div:nth-child(5) > h3,
-    #feature > div.card-bdy.my-5 > div:nth-child(6) > h3{
-        font-size: 1rem;
-    }
-
 
 
 
@@ -706,11 +693,10 @@ footer,  .bottom-footer {
     }
 
     #featured .card-build p {
-
         font-size: 12px;
     }
 
- 
+
 
     .bottom-footer {
         display: flex;
@@ -752,6 +738,10 @@ footer,  .bottom-footer {
 
     .card img {
         width: 60px;
+    }
+
+    #People\ my-5 > div.container.text-center.py-5 > h3{
+        
     }
 
 
